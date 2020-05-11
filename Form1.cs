@@ -45,7 +45,9 @@ namespace TicTacToe
                 (button7.Text == "X" && button8.Text == "X" && button9.Text == "X") ||
                 (button1.Text == "X" && button4.Text == "X" && button7.Text == "X") ||
                 (button2.Text == "X" && button5.Text == "X" && button8.Text == "X") ||
-                (button3.Text == "X" && button6.Text == "X" && button9.Text == "X"))
+                (button3.Text == "X" && button6.Text == "X" && button9.Text == "X") ||
+                (button1.Text == "X" && button5.Text == "X" && button9.Text == "X") ||
+                (button3.Text == "X" && button5.Text == "X" && button7.Text == "X"))
             {
                 return "X";
             }
@@ -54,7 +56,9 @@ namespace TicTacToe
                 (button7.Text == "O" && button8.Text == "O" && button9.Text == "O") ||
                 (button1.Text == "O" && button4.Text == "O" && button7.Text == "O") ||
                 (button2.Text == "O" && button5.Text == "O" && button8.Text == "O") ||
-                (button3.Text == "O" && button6.Text == "O" && button9.Text == "O"))
+                (button3.Text == "O" && button6.Text == "O" && button9.Text == "O") ||
+                (button1.Text == "O" && button5.Text == "O" && button9.Text == "O") ||
+                (button3.Text == "O" && button5.Text == "O" && button7.Text == "O"))
             {
                 return "O";
             }
