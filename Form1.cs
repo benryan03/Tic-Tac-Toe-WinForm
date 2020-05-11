@@ -102,6 +102,24 @@ namespace TicTacToe
             }
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string winner = checkForWin();
+            if (button3.Text == " " && winner == " ")
+            {
+                string turnChar = convertTurnToChar(turn);
+                button3.Text = turnChar;
+                turn++;
+                turnChar = convertTurnToChar(turn);
+                label2.Text = turnChar + "'s turn";
+                winner = checkForWin();
+                if (winner != " ")
+                {
+                    label2.Text = winner + " wins!";
+                }
+            }
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             string winner = checkForWin();
@@ -138,41 +156,6 @@ namespace TicTacToe
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string winner = checkForWin();
-            if (button3.Text == " " && winner == " ")
-            {
-                string turnChar = convertTurnToChar(turn);
-                button3.Text = turnChar;
-                turn++;
-                turnChar = convertTurnToChar(turn);
-                label2.Text = turnChar + "'s turn";
-                winner = checkForWin();
-                if (winner != " ")
-                {
-                    label2.Text = winner + " wins!";
-                }
-            }
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            string winner = checkForWin();
-            if (button9.Text == " " && winner == " ")
-            {
-                string turnChar = convertTurnToChar(turn);
-                button9.Text = turnChar;
-                turn++;
-                turnChar = convertTurnToChar(turn);
-                label2.Text = turnChar + "'s turn";
-                winner = checkForWin();
-                if (winner != " ")
-                {
-                    label2.Text = winner + " wins!";
-                }
-            }
-        }
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -181,6 +164,24 @@ namespace TicTacToe
             {
                 string turnChar = convertTurnToChar(turn);
                 button6.Text = turnChar;
+                turn++;
+                turnChar = convertTurnToChar(turn);
+                label2.Text = turnChar + "'s turn";
+                winner = checkForWin();
+                if (winner != " ")
+                {
+                    label2.Text = winner + " wins!";
+                }
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string winner = checkForWin();
+            if (button7.Text == " " && winner == " ")
+            {
+                string turnChar = convertTurnToChar(turn);
+                button7.Text = turnChar;
                 turn++;
                 turnChar = convertTurnToChar(turn);
                 label2.Text = turnChar + "'s turn";
@@ -210,13 +211,13 @@ namespace TicTacToe
             }
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void button9_Click(object sender, EventArgs e)
         {
             string winner = checkForWin();
-            if (button7.Text == " " && winner == " ")
+            if (button9.Text == " " && winner == " ")
             {
                 string turnChar = convertTurnToChar(turn);
-                button7.Text = turnChar;
+                button9.Text = turnChar;
                 turn++;
                 turnChar = convertTurnToChar(turn);
                 label2.Text = turnChar + "'s turn";
@@ -227,5 +228,6 @@ namespace TicTacToe
                 }
             }
         }
+
     }
 }
