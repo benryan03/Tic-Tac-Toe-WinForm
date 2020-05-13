@@ -7,3 +7,13 @@ C:\Users\Ben\Desktop\C#\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj
 C:\Users\Ben\Desktop\C#\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
 C:\Users\Ben\Desktop\C#\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\Ben\Desktop\C#\TicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\bin\Debug\TicTacToe.exe.config
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\bin\Debug\TicTacToe.exe
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\bin\Debug\TicTacToe.pdb
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.csprojAssemblyReference.cache
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.Form1.resources
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.Properties.Resources.resources
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.exe
+C:\Apache24\htdocs\social_network\Tic_Tac_Toe_Windows_Form\obj\Debug\TicTacToe.pdb
